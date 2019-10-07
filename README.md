@@ -8,7 +8,16 @@ a CRUD CMS built purely with PHP.
 * Built in Controllers to dynamically call the functions inside using URL Parameters
 * Database Helper Classes with Models and a simple ORM
 * A Config file for configuring project variables , such as Database password , timezones , etc ....
+
+
+
+
 ______________________________________
+
+
+
+
+
 # اسکای گیم
 یک سیستم مدیریت محتوا ٬ به همراه فریمورک اختصاصی ساخته شده تماما با پی اچ پی خالص
 
