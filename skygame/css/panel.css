@@ -1,0 +1,134 @@
+html, body {
+	padding: 0;
+	background-image: url("/image/ui/dark-texture2.png");
+	margin: 0;
+}
+
+#header {
+	background-color: #252525;
+	border-left: 2px solid #448AFF;
+	position: fixed;
+	float: right;
+	color: #fff;
+	right: 0;
+	height: 100%;
+	box-shadow: -5px 5px 15px 0 rgba(0, 0, 0, 0.54);
+	vertical-align: middle;
+	z-index: 50;
+}
+.rotated {
+	-webkit-transform: rotate(180deg);  /* Chrome, Safari 3.1+ */
+	-moz-transform: rotate(180deg);  /* Firefox 3.5-15 */
+	-ms-transform: rotate(180deg);  /* IE 9 */
+	-o-transform: rotate(180deg);  /* Opera 10.50-12.00 */
+	transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+
+.panel-btn {
+	vertical-align: middle;
+	display: block;
+	font-size: 12pt;
+	outline: 0;
+	background-image: url("/image/ui/steel.png");
+	color: #fff;
+	border: 1px solid #ddd;
+	border-right: none;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 8px;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 5px;
+	margin-right: 0px;
+	margin-left: 5px ;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.panel-btn:hover {
+	padding: 8px;
+	background: #42c1ff;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	text-decoration: none;
+}
+
+.panel-btn:active {
+	background-color: #ddd;
+}
+.center-float {
+	float: left;
+	margin-right: 20px;
+	position: absolute;
+	left: 50%;
+	transform: translate(30, -50%);
+	font-size: 15pt;
+	color: #000;
+}
+
+.right-float {
+	float: right;
+	margin: 0;
+	position: absolute;
+	vertical-align: middle;
+	margin: 8px;
+}
+
+input[type=checkbox] {
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	padding: 5px;
+}
+
+.normal-shadow {
+	-webkit-box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.51);
+	box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.51);
+}
+
+.be-on-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.center-horizontal {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.table-header {
+	background-color: #448AFF;
+}
+
+.table-item {
+	background-color: #128f76;
+	color: white;
+}
+
+.not-confirmed {
+	color: #ff7477;
+}
+
+.confirmed {
+	color: #12c400;
+}
+
+.tac {
+	text-align: center;
+}
+
+.mainchk {
+	margin: 10px;
+}
+
+.round-corners {
+	border-radius: 50px;
+}

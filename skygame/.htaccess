@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^((?!/tinymce/).)*$
+RewriteCond %{REQUEST_URI} !\.(woff|ttf|jpg|png|css|js|ico|svg|eot|gif|woff2|woff)$
+RewriteRule .* index.php [L]

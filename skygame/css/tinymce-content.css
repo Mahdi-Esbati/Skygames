@@ -1,0 +1,10 @@
+@font-face {
+	font-family: iransans ;
+	src: url("/css/iransans.ttf")  ;
+}
+*{
+	font-family: iransans;
+	font-size: 18px;
+	direction: rtl;
+	color: #000;
+}
