@@ -1,7 +1,7 @@
 # Skygames
 a CRUD CMS built purely with PHP.
 
-# Features
+## Features
 * Custom Built PHP Framework
 * MVC architecture 
 * Routing capabilities with ability to define new Routes , HTACCESS rewrite rules
@@ -12,7 +12,7 @@ ______________________________________
 # اسکای گیم
 یک سیستم مدیریت محتوا ٬ به همراه فریمورک اختصاصی ساخته شده تماما با پی اچ پی خالص
 
-# امکانات
+## امکانات
 * فریم ورک اختصاصی پی اچ پی
 * معماری MVC 
 * دارای قابلیت Routing با امکان تعریف کردن روت های جدید و با استفاده از HTACCESS rewrite rules
